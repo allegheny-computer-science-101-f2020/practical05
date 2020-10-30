@@ -1,6 +1,9 @@
 package practicalfive.computation;
 
-/** Configure the name of the arithmetic computation. */
+/** Class to implement Iterative Computation.
+*
+* @author Add Your Name Here
+*/
 
 public class IterativeFactorialComputation extends FactorialComputation {
 

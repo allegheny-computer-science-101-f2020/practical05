@@ -12,7 +12,7 @@ import practicalfive.data.ResultsTable;
  * Please be especially careful for OutOfMemoryErrors that can cause one of
  * these algorithms to crash if the campaign length is too high!
  *
- * @author Janyl Jumadinova
+ * @author Add Your Name Here
  */
 
 public class Experiment {

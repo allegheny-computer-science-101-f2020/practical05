@@ -1,4 +1,4 @@
-package practicalsix;
+package practicalfive;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -16,7 +16,7 @@ import java.util.Arrays;
  * <p>Please note that the computational cost of a certain algorithm
  * may prevent the efficient testing of input values. Be careful!
  *
- * @author Janyl Jumadinova
+ * @author Add Your Name Here
  */
 
 public class TestArithmeticComputations {

@@ -1,4 +1,4 @@
-# cs101f2020-practical05-solution
+# cs101f2020-practical05
 
 ## DUE: November 2 by 9:10am
 
@@ -325,4 +325,4 @@ If you are having trouble completing any part of this project, then please talk 
 
 The grade that a student receives on this practical assignment is a checkmark grade (0 or 1) and is based on:
 
-- **Percentage of Correct Gatorgrader Checks**: Students will receive 1 if their solution passes at least 85% of GatorGrader checks (53/62), otherwise they will receive 0\. Students are encouraged to repeatedly revise their source code in an attempt to get their GitHub Actions CI build to pass.
+- **Percentage of Correct Gatorgrader Checks**: Students will receive 1 if their solution passes at least 90% of GatorGrader checks (59/65), otherwise they will receive 0\. Students are encouraged to repeatedly revise their source code in an attempt to get their GitHub Actions CI build to pass.

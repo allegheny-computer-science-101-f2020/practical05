@@ -120,6 +120,9 @@ src/test:
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
             MatchFileFragment --fragment "package practicalfive" --count 1 --exact
+            MatchFileFragment --fragment "@Test" --count 6 --exact
+            MatchFileFragment --fragment "IterativeFactorialComputation" --count 2
+            MatchFileFragment --fragment "RecursiveFactorialComputation" --count 2
 
 # --> check that the number of commits in the Git repository is beyond a baseline
 CountCommits --count 2

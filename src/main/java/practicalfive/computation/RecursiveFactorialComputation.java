@@ -1,5 +1,10 @@
 package practicalfive.computation;
 
+/** Class to implement Recursive Computation.
+*
+* @author Add Your Name Here
+*/
+
 public class RecursiveFactorialComputation extends FactorialComputation {
 
   /** Configure the name of the arithmetic computation. */
