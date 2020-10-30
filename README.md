@@ -16,8 +16,6 @@
 
 - [Expected Program Output](#expected-program-output)
 
-- [Automated Checks with GatorGrader](#automated-checks-with-gatorgrader)
-
 - [Downloading Project Updates](#downloading-project-updates)
 
 - [Using GitHub Actions CI](#using-github-actions-ci)
@@ -231,81 +229,6 @@ You can also complete several important Java programming tasks by using the `gra
 - `gradle tasks`: display details about the Gradle system
 
 To run one of these commands, you must be in the main (i.e., "home base") directory for this assignment where the `build.gradle` file is located.
-
-## Automated Checks with GatorGrader
-
-In addition to meeting all of the requirements outlined in the assignment sheet, your submission must pass the following checks that [GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically assesses:
-
-- The ArithmeticComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `Add Your Name Here` fragment
-- The ArithmeticComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `TODO` fragment
-- The ArithmeticComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `package practicalfive` fragment
-- The ArithmeticComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `public abstract class` fragment
-- The Campaign.java in src/main/java/practicalfive/experiment has exactly 0 of the `Add Your Name Here` fragment
-- The Campaign.java in src/main/java/practicalfive/experiment has exactly 0 of the `TODO` fragment
-- The Campaign.java in src/main/java/practicalfive/experiment has exactly 0 of the `println` fragment
-- The Campaign.java in src/main/java/practicalfive/experiment has exactly 1 of the `package practicalfive` fragment
-- The Experiment.java in src/main/java/practicalfive/experiment has at least 2 multiple-line Java comment(s)
-- The Experiment.java in src/main/java/practicalfive/experiment has at least 2 single-line Java comment(s)
-- The Experiment.java in src/main/java/practicalfive/experiment has at least 7 of the `println(` fragment
-- The Experiment.java in src/main/java/practicalfive/experiment has exactly 0 of the `Add Your Name Here` fragment
-- The Experiment.java in src/main/java/practicalfive/experiment has exactly 0 of the `TODO` fragment
-- The Experiment.java in src/main/java/practicalfive/experiment has exactly 1 of the `package practicalfive` fragment
-- The FactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `Add Your Name Here` fragment
-- The FactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `TODO` fragment
-- The FactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `package practicalfive` fragment
-- The FactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `public abstract class` fragment
-- The IterativeFactorialComputation.java in src/main/java/practicalfive/computation has at least 1 of the `for (` fragment
-- The IterativeFactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `Add Your Name Here` fragment
-- The IterativeFactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `TODO` fragment
-- The IterativeFactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `compute(` fragment
-- The IterativeFactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `package practicalfive` fragment
-- The IterativeFactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `public class` fragment
-- The RecursiveFactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `Add Your Name Here` fragment
-- The RecursiveFactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `TODO` fragment
-- The RecursiveFactorialComputation.java in src/main/java/practicalfive/computation has exactly 0 of the `for (` fragment
-- The RecursiveFactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `package practicalfive` fragment
-- The RecursiveFactorialComputation.java in src/main/java/practicalfive/computation has exactly 1 of the `public class` fragment
-- The RecursiveFactorialComputation.java in src/main/java/practicalfive/computation has exactly 2 of the `compute(` fragment
-- The ResultsTable.java in src/main/java/practicalfive/data has at least 12 multiple-line Java comment(s)
-- The ResultsTable.java in src/main/java/practicalfive/data has at least 2 single-line Java comment(s)
-- The ResultsTable.java in src/main/java/practicalfive/data has exactly 0 of the `Add Your Name Here` fragment
-- The ResultsTable.java in src/main/java/practicalfive/data has exactly 0 of the `TODO` fragment
-- The ResultsTable.java in src/main/java/practicalfive/data has exactly 0 of the `println` fragment
-- The ResultsTable.java in src/main/java/practicalfive/data has exactly 1 of the `double ratio =` fragment
-- The ResultsTable.java in src/main/java/practicalfive/data has exactly 1 of the `package practicalfive` fragment
-- The RunCampaign.java in src/main/java/practicalfive/experiment has at least 1 single-line Java comment(s)
-- The RunCampaign.java in src/main/java/practicalfive/experiment has at least 3 of the `println(` fragment
-- The RunCampaign.java in src/main/java/practicalfive/experiment has at least 5 multiple-line Java comment(s)
-- The RunCampaign.java in src/main/java/practicalfive/experiment has exactly 0 of the `Add Your Name Here` fragment
-- The RunCampaign.java in src/main/java/practicalfive/experiment has exactly 0 of the `TODO` fragment
-- The RunCampaign.java in src/main/java/practicalfive/experiment has exactly 1 of the `package practicalfive` fragment
-- The TestArithmeticComputations.java in src/test/java/practicalfive has exactly 0 of the `Add Your Name Here` fragment
-- The TestArithmeticComputations.java in src/test/java/practicalfive has exactly 0 of the `TODO` fragment
-- The TestArithmeticComputations.java in src/test/java/practicalfive has exactly 1 of the `package practicalfive` fragment
-- The TestResultsTable.java in src/test/java/practicalfive has exactly 0 of the `Add Your Name Here` fragment
-- The TestResultsTable.java in src/test/java/practicalfive has exactly 0 of the `TODO` fragment
-- The TestResultsTable.java in src/test/java/practicalfive has exactly 1 of the `package practicalfive` fragment
-- The command `gradle build` executes correctly
-- The command `gradle test` executes correctly
-- The file ArithmeticComputation.java exists in the src/main/java/practicalfive/computation directory
-- The file Campaign.java exists in the src/main/java/practicalfive/experiment directory
-- The file Experiment.java exists in the src/main/java/practicalfive/experiment directory
-- The file FactorialComputation.java exists in the src/main/java/practicalfive/computation directory
-- The file IterativeFactorialComputation.java exists in the src/main/java/practicalfive/computation directory
-- The file RecursiveFactorialComputation.java exists in the src/main/java/practicalfive/computation directory
-- The file ResultsTable.java exists in the src/main/java/practicalfive/data directory
-- The file RunCampaign.java exists in the src/main/java/practicalfive/experiment directory
-- The file TestArithmeticComputations.java exists in the src/test/java/practicalfive directory
-- The file TestResultsTable.java exists in the src/test/java/practicalfive directory
-- The repository has at least 5 commit(s)
-
-If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated checks pass correctly, the tool will produce the output like the following in addition to returning a zero exit code (which you can access by typing the command `echo $?`).
-
-```
-        ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
-        ┃ Passed 62/62 (100%) of checks for cs101f2020-practical05! ┃
-        ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
-```
 
 ## Using GitHub Actions CI
 
